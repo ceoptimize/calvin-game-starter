@@ -133,6 +133,10 @@ npx skills add <owner/repo> --skill <name> -g --copy
 
 Run `claude doctor`. Run `codex doctor`. You can also run `setup.ps1` again. If the AI tools cannot see Unity, open **Window > MCP for Unity** and check that **Local Server** says it is running. Press **Start Server** if not.
 
+## Selling your games
+
+When a game is ready for other people, read `PUBLISHING.md` in this folder. It explains where to put the game (itch.io), how the store account and payments work, how to host a multiplayer server, the privacy rules for games kids play, and what to check before you publish.
+
 ## Art and sound
 
 For textures and UI images, ask Codex to use `$imagegen` and keep prompts in `Game/Assets/Art/STYLE.md`. Get 3D models and sounds from free packs such as Kenney (kenney.nl), Poly Haven (polyhaven.com), Mixamo (mixamo.com) for character animation, and Freesound (freesound.org). Always write down the pack and its license in `Game/Assets/Art/CREDITS.md`.
