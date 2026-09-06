@@ -1,0 +1,4 @@
+# Default Codex model for this repository. /route overrides the model for each step.
+model = "gpt-5.6-sol"
+# Default reasoning effort for this repository. /route sets its own effort per step.
+model_reasoning_effort = "high"

@@ -1,0 +1,23 @@
+{
+  "enableAllProjectMcpServers": true,
+  "permissions": {
+    "allow": [
+      "Bash(git status *)",
+      "Bash(git diff *)",
+      "Bash(git log *)",
+      "Bash(codex exec *)",
+      "Bash(codex mcp list *)",
+      "Bash(npx skills add *)",
+      "Bash(npx skills update *)",
+      "Bash(npx skills list *)",
+      "Bash(npx skills find *)"
+    ],
+    "deny": [
+      "Bash(*--dangerously-bypass-approvals-and-sandbox*)",
+      "Bash(*--yolo*)",
+      "Bash(*--dangerously-bypass-hook-trust*)",
+      "Bash(*danger-full-access*)",
+      "Bash(npx skills remove *)"
+    ]
+  }
+}

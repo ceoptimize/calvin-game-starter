@@ -1,0 +1,43 @@
+.route/
+.claude/settings.local.json
+.DS_Store
+Thumbs.db
+
+# Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# Unity generated files
+*.csproj
+*.sln
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+sysinfo.txt
+*.apk
+*.aab
+*.unitypackage
+*.app
+crashlytics-build.properties
+
+# IDE generated files
+.vs/
+.vsconfig
+ExportedObj/
+.consulo/
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.mdb
+*.opendb
+*.VC.db
